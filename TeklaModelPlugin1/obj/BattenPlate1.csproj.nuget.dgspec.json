@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaModelPlugin1\\BattenPlate1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaModelPlugin1\\BattenPlate1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaModelPlugin1\\BattenPlate1.csproj",
+        "projectName": "TeklaModelPlugin1",
+        "projectPath": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaModelPlugin1\\BattenPlate1.csproj",
+        "packagesPath": "C:\\Users\\NDhavale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaModelPlugin1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NDhavale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Stridely_TeklaNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaPH\\TeklaPH.csproj": {
+                "projectPath": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaPH\\TeklaPH.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Tekla.Structures": {
+              "target": "Package",
+              "version": "[2021.0.0, )"
+            },
+            "Tekla.Structures.Datatype": {
+              "target": "Package",
+              "version": "[2021.0.0, )"
+            },
+            "Tekla.Structures.Dialog": {
+              "target": "Package",
+              "version": "[2021.0.0, )"
+            },
+            "Tekla.Structures.Model": {
+              "target": "Package",
+              "version": "[2021.0.0, )"
+            },
+            "Tekla.Structures.Plugins": {
+              "target": "Package",
+              "version": "[2021.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaPH\\TeklaPH.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaPH\\TeklaPH.csproj",
+        "projectName": "TeklaPH",
+        "projectPath": "C:\\Users\\NDhavale\\Desktop\\TeklaOpenAPI\\StridelyPlugins\\TeklaPH\\TeklaPH.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
